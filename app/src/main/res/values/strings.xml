@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">hsTestTask</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_menu">Меню</string>
+    <string name="title_profile">Профиль</string>
+    <string name="title_cart">Корзина</string>
+    <string name="city_example">Москва</string>
+    <string name="tag_example">Все меню</string>
+    <string name="text_example">Наименование</string>
+    <string name="cost_example">от 345 р</string>
+    <string name="turnGPS">Для корректной работы, требуется разрешить приложению доступ к местоположению.\nПожалуйста, нажмите \'разрешить\'.\nЛибо перейдите в настройки устройства и выдайте разрешение приложению.</string>
+    <string name="sure">Понятно</string>
+    <string name="moveToSettings">Перейти в настройки</string>
+    <string name="pleaseSwipeToRefresh">Пожалуйста, проверьте интернет-соединение и обновите страницу</string>
+</resources>
