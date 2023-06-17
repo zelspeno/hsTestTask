@@ -1,0 +1,320 @@
+{
+  "dishes":
+  [
+    {
+      "id": 1,
+      "name": "Пицца Жюльен",
+      "price": 489,
+      "weight": 430,
+      "ingredients": [
+"Цыпленок", "шампиньоны", "сливочный соус с грибами", "красный лук", "чеснок", "моцарелла", "смесь сыров чеддер и пармезан", "фирменный соус альфредо"
+			],
+      "image_url": "https://dodopizza-a.akamaihd.net/static/Img/Products/3d2d1630984146ee87cb8999293834cd_584x584.png",
+      "tags":[
+"Все меню", "Пицца"
+            ]
+    }, 
+    {
+      "id": 2,
+      "name": "Пицца от шефа",
+      "price": 689,
+      "weight": 470,
+	  "ingredients": [
+"Пастрами из мраморной говядины", "сладкий перец", "томаты", "красный лук", "чеснок", "соус ткемали", "моцарелла", "фирменный томатный соус"
+			],
+	  "image_url": "https://dodopizza-a.akamaihd.net/static/Img/Products/7a1440b5ea68440b9ed689756f1f7572_584x584.png",
+      "tags":[
+"Все меню", "Пицца"
+             ]
+    },
+    {
+      "id": 3,
+      "name": "Гавайская с альфредо",
+      "price": 439,
+      "weight": 390,
+      "ingredients": [
+"Фирменный соус альфредо", "цыпленок", "моцарелла", "ананасы"
+			],
+	  "image_url": "https://dodopizza-a.akamaihd.net/static/Img/Products/d4efda8f11534c42929a1ec3166eccab_584x584.png",
+      "tags":[
+"Все меню", "Пицца"
+             ]
+    },
+    {
+      "id": 4,
+      "name": "Сырная",
+      "price": 299,
+      "weight": 330,
+      "ingredients": [
+"Моцарелла", "сыры чеддер и пармезан", "фирменный соус альфредо"
+			],
+	  "image_url": "https://dodopizza-a.akamaihd.net/static/Img/Products/f9f8f8a951054802a49b430c7fd9a68b_584x584.png",
+      "tags":[
+"Все меню", "Пицца"
+             ]
+    },
+    {
+      "id": 5,
+      "name": "Пепперони фреш",
+      "price": 299,
+      "weight": 400,
+      "ingredients": [
+"Пикантная пепперони", "увеличенная порция моцареллы", "томаты", "фирменный томатный соус"
+			],
+	  "image_url": "https://dodopizza-a.akamaihd.net/static/Img/Products/29521e52aed84e3f9bc15336d112d3fb_584x584.png",
+      "tags":[
+"Все меню", "Пицца"
+             ]
+    },
+	{
+      "id": 6,
+      "name": "Комбо от 599 Р",
+      "price": 599,
+      "weight": 0,
+      "ingredients": [
+"Маленькая пицца", "Закуска на выбор", "Напиток на выбор", "Соус на выбор"
+			],
+	  "image_url": "https://dodopizza-a.akamaihd.net/static/Img/ComboTemplates/33d3ce807f4848389144e31cd28ee601_1875x1875.png",
+      "tags":[
+"Все меню", "Комбо"
+             ]
+    },	
+	{
+      "id": 7,
+      "name": "3 пиццы от 799 Р",
+      "price": 799,
+      "weight": 0,
+      "ingredients": [
+"3 маленькие пиццы на выбор"	
+			],
+	  "image_url": "https://dodopizza-a.akamaihd.net/static/Img/ComboTemplates/6896b1e6b27f42aba9012121ec13948e_1875x1875.png",
+      "tags":[
+"Все меню", "Комбо"
+             ]
+    },	
+	{
+      "id": 8,
+      "name": "2 пиццы",
+      "price": 799,
+      "weight": 0,
+      "ingredients": [
+"2 средние пиццы на выбор"	
+			],
+	  "image_url": "https://dodopizza-a.akamaihd.net/static/Img/ComboTemplates/519b674d1d4243439ee192703b348497_1875x1875.png",
+      "tags":[
+"Все меню", "Комбо"
+             ]
+    },	
+	{
+      "id": 9,
+      "name": "4 закуски",
+      "price": 619,
+      "weight": 0,
+      "ingredients": [
+"4 закуски на выбор" 	
+			],
+	  "image_url": "https://dodopizza-a.akamaihd.net/static/Img/ComboTemplates/3aea694ddd2243bc92ac764a0045467b_1875x1875.png",
+      "tags":[
+"Все меню", "Комбо"
+             ]
+    },	
+	{
+      "id": 10,
+      "name": "2 пиццы и напиток",
+      "price": 839,
+      "weight": 0,
+      "ingredients": [
+"2 маленькие пиццы на выбор", "Напиток на выбор" 	
+			],
+	  "image_url": "https://dodopizza-a.akamaihd.net/static/Img/ComboTemplates/fc5f12da66c24c31a78373657413b3a3_1875x1875.png",
+      "tags":[
+"Все меню", "Комбо"
+             ]
+    },	
+	{
+      "id": 11,
+      "name": "Додстер с ветчиной",
+      "price": 169,
+      "weight": 160,
+      "ingredients": [
+"Ветчина", "томаты", "моцарелла", "соус ранч", "пшеничная лепешка" 	
+			],
+	  "image_url": "https://dodopizza-a.akamaihd.net/static/Img/Products/3b9674f4961c4e3ab301ca01711d1f11_1875x1875.png",
+      "tags":[
+"Все меню", "Закуски"
+             ]
+    },	
+	{
+      "id": 12,
+      "name": "Дэнвич ветчина и сыр",
+      "price": 229,
+      "weight": 210,
+      "ingredients": [
+"Поджаристая чиабатта", "ветчина", "цыпленок", "моцарелла", "томаты", "соус ранч" 	
+			],
+	  "image_url": "https://dodopizza-a.akamaihd.net/static/Img/Products/727c8ec398bb48bc814a2d83c2e6a74c_1875x1875.png",
+      "tags":[
+"Все меню", "Закуски"
+             ]
+    },	
+	{
+      "id": 13,
+      "name": "Дэнвич чоризо барбекю",
+      "price": 229,
+      "weight": 210,
+      "ingredients": [
+"Колбаски чоризо", "пепперони", "соус бургер", "соус барбекю", "свежие томаты", "маринованные огурчики", "моцарелла", "лук", "румяная чиабатта" 	
+			],
+	  "image_url": "https://dodopizza-a.akamaihd.net/static/Img/Products/87b6d4ca8df7430497de8ceaac09203e_1875x1875.png",
+      "tags":[
+"Все меню", "Закуски"
+             ]
+    },
+	{
+      "id": 14,
+      "name": "Супермясной Додстер",
+      "price": 209,
+      "weight": 160,
+      "ingredients": [
+"Цыпленок", "моцарелла", "митболлы", "острые колбаски чоризо", "соус бургер", "тонкая пшеничная лепешка" 	
+			],
+	  "image_url": "https://dodopizza-a.akamaihd.net/static/Img/Products/87b6d4ca8df7430497de8ceaac09203e_1875x1875.png",
+      "tags":[
+"Все меню", "Закуски"
+             ]
+    },
+	{
+      "id": 15,
+      "name": "Додстер Карри",
+      "price": 189,
+      "weight": 180,
+      "ingredients": [
+"Цыпленок", "ананас", "сладкий перец", "моцарелла", "пряный соус карри", "тонкая пшеничная лепешка" 	
+			],
+	  "image_url": "https://dodopizza-a.akamaihd.net/static/Img/Products/c65d065f6e654aa2a20787a9e806e04d_1875x1875.png",
+      "tags":[
+"Все меню", "Закуски"
+             ]
+    },
+	{
+      "id": 16,
+      "name": "Чизкейк Нью-Йорк",
+      "price": 149,
+      "weight": 100,
+      "ingredients": [
+"Нежнейший творожный чизкейк" 	
+			],
+	  "image_url": "https://dodopizza-a.akamaihd.net/static/Img/Products/5a06bd533bb846f59cfb4b8c4e062f86_1875x1875.png",
+      "tags":[
+"Все меню", "Десерты"
+             ]
+    },
+	{
+      "id": 17,
+      "name": "Чизкейк Банановый с шоколадным печеньем",
+      "price": 149,
+      "weight": 100,
+      "ingredients": [
+"Банан", "Шоколадное печенье" 	
+			],
+	  "image_url": "https://dodopizza-a.akamaihd.net/static/Img/Products/2556eeed7a3b4822ba62a6f30e111465_1875x1875.png",
+      "tags":[
+"Все меню", "Десерты"
+             ]
+    },
+	{
+      "id": 18,
+      "name": "Додо тарт",
+      "price": 169,
+      "weight": 80,
+      "ingredients": [
+"Морковно-творожная начинка", "Мед", "Грецкий орех","Цитрусы" 	
+			],
+	  "image_url": "https://dodopizza-a.akamaihd.net/static/Img/Products/6dd52d088264447da1e3479d92830781_1875x1875.png",
+      "tags":[
+"Все меню", "Десерты"
+             ]
+    },
+	{
+      "id": 19,
+      "name": "Маффин Соленая карамель",
+      "price": 99,
+      "weight": 120,
+      "ingredients": [
+"Соленая карамель", "арахис" 	
+			],
+	  "image_url": "https://dodopizza-a.akamaihd.net/static/Img/Products/c3687909a9cf4064aabc5b07a166e848_1875x1875.png",
+      "tags":[
+"Все меню", "Десерты"
+             ]
+    },
+	{
+      "id": 20,
+      "name": "Шоколадный кукис",
+      "price": 95,
+      "weight": 70,
+      "ingredients": [
+"Шоколад", "глазурь" 	
+			],
+	  "image_url": "https://dodopizza-a.akamaihd.net/static/Img/Products/32e5d56e679748839eba187f1690ca67_1875x1875.png",
+      "tags":[
+"Все меню", "Десерты"
+             ]
+    },
+	{
+      "id": 21,
+      "name": "Добрый кола",
+      "price": 109,
+      "weight": 0.5,
+      "ingredients": ["null"],
+	  "image_url": "https://dodopizza-a.akamaihd.net/static/Img/Products/742cd20c1696452ca8f52a0ab60779e4_584x584.png",
+      "tags":[
+"Все меню", "Напитки"
+             ]
+    },
+	{
+      "id": 22,
+      "name": "Добрый Кола без сахара",
+      "price": 109,
+      "weight": 0.5,
+      "ingredients": ["null"],
+	  "image_url": "https://dodopizza-a.akamaihd.net/static/Img/Products/519019eabffe4694bff8b727ccac898f_584x584.png",
+      "tags":[
+"Все меню", "Напитки"
+             ]
+    },
+	{
+      "id": 23,
+      "name": "Добрый Апельсин",
+      "price": 109,
+      "weight": 0.5,
+      "ingredients": ["null"],
+	  "image_url": "https://dodopizza-a.akamaihd.net/static/Img/Products/488f7b6fc5f84f56818b70cbb3251057_1875x1875.png",
+      "tags":[
+"Все меню", "Напитки"
+             ]
+    },
+	{
+      "id": 24,
+      "name": "Добрый Лайм-Лимон",
+      "price": 109,
+      "weight": 0.5,
+      "ingredients": ["null"],
+	  "image_url": "https://dodopizza-a.akamaihd.net/static/Img/Products/710084240db2425196e9892f2a22d0db_1875x1875.png",
+      "tags":[
+"Все меню", "Напитки"
+             ]
+    },
+	{
+      "id": 25,
+      "name": "Добрый Манго-Маракуйя",
+      "price": 109,
+      "weight": 0.5,
+      "ingredients": ["null"],
+	  "image_url": "https://dodopizza-a.akamaihd.net/static/Img/Products/b95df82b1ff64695bb5471071d1db36e_1875x1875.png",
+      "tags":[
+"Все меню", "Напитки"
+             ]
+    }
+  ]
+}
