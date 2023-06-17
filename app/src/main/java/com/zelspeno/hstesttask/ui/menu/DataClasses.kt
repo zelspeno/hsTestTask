@@ -17,8 +17,3 @@ data class DishUI (
     val imageUrl: String?,
     val tags: List<String>?
 )
-
-data class Coordinates(
-    val latitude: Double?,
-    val longitude: Double?
-)

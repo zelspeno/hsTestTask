@@ -1,14 +1,11 @@
 package com.zelspeno.hstesttask.di
 
-import android.Manifest
-import android.annotation.SuppressLint
+
 import android.content.Context
-import android.location.Geocoder
-import android.location.Location
-import android.location.LocationManager
+import androidx.room.Room
+import com.zelspeno.hstesttask.room.AppDatabase
 import com.zelspeno.hstesttask.source.Const
 import com.zelspeno.hstesttask.source.DeliveryApi
-import com.zelspeno.hstesttask.ui.menu.Coordinates
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
@@ -18,12 +15,31 @@ import okhttp3.OkHttpClient
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 import java.util.*
-import javax.inject.Named
 import javax.inject.Singleton
 
 @Module
 @InstallIn(SingletonComponent::class)
-class AppModule
+class AppModule{
+
+    @Provides
+    @Singleton
+    fun providesContext(@ApplicationContext context: Context): Context {
+        return context
+    }
+
+    @Provides
+    @Singleton
+    fun providesAppDatabase(@ApplicationContext context: Context) =
+        Room.databaseBuilder(
+            context,
+            AppDatabase::class.java,
+            "cache_database"
+        ).build()
+
+    @Provides
+    @Singleton
+    fun providesMenuCacheDao(database: AppDatabase) = database.getMenuCacheDao()
+}
 
 @Module
 @InstallIn(SingletonComponent::class)
